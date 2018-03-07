@@ -7,8 +7,6 @@
 # https://devcenter.heroku.com/articles/ruby-support
 $stdout.sync = true
 
-puts "RUBY COMPILE"
-
 $:.unshift File.expand_path("../../../lib", __FILE__)
 require "language_pack"
 require "language_pack/shell_helpers"
